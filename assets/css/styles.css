@@ -1,0 +1,43 @@
+/* Fondo general (puede ser negro o el que quieras) */
+body {
+    margin: 0;
+    padding: 60px 0;
+    background-color: #0f0f0f;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor del cómic */
+.comic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 160px; /* separación clara entre páginas */
+}
+
+/* Hoja física */
+.page {
+    background: #ffffff;
+    padding: 80px 40px;
+    width: 100%;
+    max-width: 1000px;
+
+    border-radius: 3px;
+
+    /* Borde visible tipo hoja */
+    border: 1px solid #ddd;
+
+    /* Sombra más dramática */
+    box-shadow:
+        0 60px 120px rgba(0,0,0,0.6),
+        0 20px 40px rgba(0,0,0,0.4);
+
+    /* Simula grosor */
+    position: relative;
+}
+
+/* Imagen del comic */
+.page img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
