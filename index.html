@@ -13,29 +13,17 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-92H1H7WB5W');
+  gtag('config', 'G-2ZW6V58ZJL');
 </script>
 
 </head>
 
 <body>
 
-<!-- Contador -->
-<div class="counter">
-    <span id="visits">0</span> lectores
-</div>
 
 <!-- Comic -->
 <div class="comic-container" id="comic"></div>
 
-<!-- Script del contador -->
-<script>
-fetch('https://api.counterapi.dev/vmms/cosbots')
-  .then(res => res.json())
-  .then(data => {
-    document.getElementById('visits').innerText = data.count;
-  });
-</script>
 
 <!-- Script que carga las páginas -->
 <script src="assets/js/comic.js"></script>
