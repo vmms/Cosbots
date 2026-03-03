@@ -41,3 +41,11 @@ body {
     height: auto;
     display: block;
 }
+
+.counter {
+    text-align: center;
+    color: #ccc;
+    font-size: 18px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
